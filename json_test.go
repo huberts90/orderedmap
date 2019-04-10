@@ -8,7 +8,7 @@ import (
 
 func Test_JsonMarshall(t *testing.T) {
 	expected := []byte(`{"firstName":"Julius","lastName":"Caesar","age":50}`)
-	dict := OrderedMap{
+	dict := Collection{
 		{"firstName", "Julius"},
 		{"lastName", "Caesar"},
 		{"age", 50},

@@ -7,7 +7,7 @@ import (
 
 // MarshalJSON method
 // Implement the json.Marshaler interface
-func (oMap OrderedMap) MarshalJSON() ([]byte, error) {
+func (oMap Collection) MarshalJSON() ([]byte, error) {
 	var buf bytes.Buffer
 
 	buf.WriteString("{")

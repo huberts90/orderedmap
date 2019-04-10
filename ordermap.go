@@ -6,5 +6,5 @@ type KeyVal struct {
 	Val interface{}
 }
 
-// OrderedMap struct
-type OrderedMap []KeyVal
+// Collection struct
+type Collection []KeyVal
